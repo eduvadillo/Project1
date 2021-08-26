@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  height: 7rem;
+}
+
+.jugadores {
+  display: flex;
+  width: 50rem;
+  height: 5rem;
+  justify-content: space-around;
+  font-family: "Audiowide", cursive;
+}
+
+canvas {
+  position: absolute;
+  margin-left: -62.5rem;
+  margin-top: 13rem;
+}
+
+.background img {
+  height: 900px;
+}
+
+h1 {
+  font-family: "Audiowide", cursive;
+}
+
+.fcc-btn {
+  background-color: #199319;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  margin-top: 3rem;
+  font-family: "Audiowide", cursive;
+}
+
+.fcc-btn:hover {
+  background-color: #223094;
+}

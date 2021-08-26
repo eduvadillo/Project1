@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-image: url(../images/fondobarcelona.jpg);
+  background-size: cover;
+}
+
+.title {
+  height: 4rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.highScore {
+  height: 10rem;
+  text-align: start;
+  font-family: "Audiowide", cursive;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #ac1c69;
+  font-weight: 800;
+}
+
+.jugadores {
+  display: flex;
+  width: 50rem;
+  height: 5rem;
+  justify-content: flex-start;
+  font-family: "Audiowide", cursive;
+  font-size: 2rem;
+  color: #ac1c69;
+}
+
+canvas {
+  position: absolute;
+  margin-left: -33.2rem;
+  margin-top: -2.6rem;
+}
+.background {
+  margin-left: 20rem;
+  margin-top: 8rem;
+}
+.background img {
+  height: 900px;
+  width: 645px;
+  margin-top: -9rem;
+}
+
+h1 {
+  font-family: "Audiowide", cursive;
+  font-size: 4rem;
+  color: #ac1c69;
+  margin-top: 0.6rem;
+}
+
+.fcc-btn {
+  background-color: #838383;
+  color: white;
+  width: 12rem;
+  height: 3rem;
+  text-decoration: none;
+  margin-top: 3rem;
+  font-family: "Audiowide", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.fcc-btn:hover {
+  background-color: #a350e2;
+}
+
+.parte2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+  margin-top: 4rem;
+}

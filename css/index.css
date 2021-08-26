@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&display=swap");
+
+body {
+  background-image: url(../images/slytherin.jpg);
+  background-size: cover;
+}
+.title {
+  font-family: "Audiowide", cursive;
+  text-align: center;
+  padding-top: 5rem;
+  height: 10rem;
+  color: white;
+}
+
+.jugadores {
+  height: 7rem;
+}
+#nombreJugador {
+  font-family: "Audiowide", cursive;
+  text-align: center;
+}
+
+.botonPlayers {
+  display: flex;
+  justify-content: center;
+  margin-left: -17em;
+}
+
+.botonPlayers a {
+  margin-right: 3rem;
+}
+
+.fcc-btn {
+  background-color: #199319;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family: "Audiowide", cursive;
+  margin-left: 21rem;
+}
+
+.fcc-btn:hover {
+  background-color: #223094;
+}
+
+.botonBack {
+  display: flex;
+  justify-content: center;
+  margin-left: -3.7rem;
+  padding-top: 10rem;
+}
+
+.formDiv {
+  margin-top: 5rem;
+}

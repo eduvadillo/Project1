@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  height: 7rem;
+}
+
+.jugadores {
+  display: flex;
+  width: 50rem;
+  height: 5rem;
+  justify-content: space-around;
+  font-family: "Audiowide", cursive;
+}
+
+canvas {
+  box-shadow: black 20px 10px 50px;
+}
+
+h1 {
+  font-family: "Audiowide", cursive;
+}
+
+.fcc-btn {
+  background-color: #199319;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  margin-top: 3rem;
+  font-family: "Audiowide", cursive;
+}
+
+.fcc-btn:hover {
+  background-color: #223094;
+}
+
+#winnerTemporal {
+  padding-top: 3rem;
+  height: 3rem;
+  font-family: "Audiowide", cursive;
+  font-size: 4rem;
+}
+
+#gameOverPlayer1 {
+  padding-top: 3rem;
+  height: 5rem;
+  font-family: "Audiowide", cursive;
+  font-size: 2rem;
+}
+#gameOverPlayer2 {
+  height: 2rem;
+  font-family: "Audiowide", cursive;
+  font-size: 2rem;
+}
+
+span {
+  font-size: 3rem;
+}
+
+#winnerDefinitivo {
+  height: 3rem;
+  font-family: "Audiowide", cursive;
+  font-size: 4rem;
+  padding-top: 6rem;
+}
+
+.barraDiferencia {
+  display: flex;
+  padding-top: 2rem;
+}
+#barraDiferenciaPlayer1 {
+  height: 3rem;
+  display: flex;
+  width: 24rem;
+  background-color: rgb(24, 69, 218);
+}
+
+#barraDiferenciaPlayer2 {
+  height: 3rem;
+  display: flex;
+  width: 24rem;
+  background-color: rgb(216, 155, 24);
+}
+
+/*
+.player1 {
+  height: 3rem;
+  background-color: aqua;
+  width: 1rem;
+}
+
+.player2 {
+  height: 3rem;
+  background-color: rgb(255, 0, 191);
+  width: 1rem;
+}
+*/
