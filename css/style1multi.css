@@ -50,7 +50,7 @@ h1 {
   text-decoration: none;
   margin-top: 3rem;
   font-family: "Audiowide", cursive;
-  margin-left: -55rem;
+  margin-left: 55rem;
 }
 
 .fcc-btn:hover {
@@ -59,10 +59,10 @@ h1 {
 
 #winnerTemporal {
   margin-top: -26rem;
-  padding-left: 54rem;
+  padding-left: 58rem;
   height: 3rem;
   font-family: "Audiowide", cursive;
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 #gameOverPlayer1 {
