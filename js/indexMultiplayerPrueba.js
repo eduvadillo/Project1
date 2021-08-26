@@ -113,6 +113,8 @@ barraDiferencia.appendChild(nuevoDiv2);
     let xVelocity2 = 0;
     let yVelocity2 = 0;
 
+    let nivel2 = 1;
+
     let gameOver2 = false;
 
     //Función principal para pintar el juego del jugador 1
@@ -122,7 +124,7 @@ barraDiferencia.appendChild(nuevoDiv2);
       let result = isGameOver();
       let result2 = isLooser();
       let result3 = isWinner();
-      if (result || result2) {
+      if (result || result2 || result3) {
         // gameOverSound.play();
         return;
       }
@@ -191,7 +193,7 @@ barraDiferencia.appendChild(nuevoDiv2);
       let isLooser = false;
 
       let diferenciaScore = score2 - score;
-      if (diferenciaScore === 4) {
+      if (diferenciaScore === 12) {
         aplausosAudio.play();
         isLooser = true;
       }
@@ -211,7 +213,7 @@ barraDiferencia.appendChild(nuevoDiv2);
     function isWinner() {
       let winner = false;
 
-      let diferenciaScore = score2 - score;
+      let diferenciaScore = score - score2;
       if (diferenciaScore === 12) {
         winner = true;
       }
@@ -331,9 +333,10 @@ barraDiferencia.appendChild(nuevoDiv2);
 
     function drawGame2() {
       changeSnakePosition2();
-      let result2 = isGameOver2();
-      let result3 = isWinner2();
-      if (result2 || result3) {
+      let result5 = isGameOver2();
+      let result6 = isWinner2();
+      let result7 = isLooser2();
+      if (result5 || result6 || result7) {
         return;
       }
 
@@ -344,6 +347,7 @@ barraDiferencia.appendChild(nuevoDiv2);
       drawSnake2();
 
       drawScore2();
+      drawNivel2();
 
       setTimeout(drawGame2, 1000 / speed2);
     }
@@ -397,7 +401,7 @@ barraDiferencia.appendChild(nuevoDiv2);
       let isLooser2 = false;
 
       let diferenciaScore = score - score2;
-      if (diferenciaScore === 4) {
+      if (diferenciaScore === 12) {
         aplausosAudio.play();
         isLooser2 = true;
       }
@@ -411,7 +415,7 @@ barraDiferencia.appendChild(nuevoDiv2);
         );
       }
 
-      return isLooser;
+      return isLooser2;
     }
 
     function isWinner2() {
@@ -431,6 +435,12 @@ barraDiferencia.appendChild(nuevoDiv2);
         );
       }
       return winner2;
+    }
+
+    function drawNivel2() {
+      ctx2.fillStyle = "white";
+      ctx2.font = "10px Verdana";
+      ctx2.fillText("Nivel " + nivel, 10, 10);
     }
 
     function drawScore2() {
@@ -657,7 +667,7 @@ barraDiferencia.appendChild(nuevoDiv2);
               } else {
                 winner.innerHTML = `${jugador2.innerHTML} está pidiendo clemencia a ${jugador1.innerHTML}`;
                 barraDiferencia.style.width = "48rem";
-                barraDiferencia2.style.width = "2rem";
+                barraDiferencia2.style.width = "0rem";
               }
             }
           }
