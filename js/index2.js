@@ -30,7 +30,7 @@ window.onload = () => {
     let pearX = 15;
     let pearY = 15;
     const pear = new Image();
-    pear.src = "../images//gnarl.png.png";
+    pear.src = "https://eduvadillo.github.io/Project1/images//gnarl.png.png";
 
     let xVelocity = 0;
     let yVelocity = 0;
@@ -48,8 +48,12 @@ window.onload = () => {
 
     //sounds
 
-    const soundGameOver = new Audio("../audio/gameOver2.mp3");
-    const comerManzana = new Audio("../audio/comerManzana.mp3");
+    const soundGameOver = new Audio(
+      "https://eduvadillo.github.io/Project1/audio/gameOver2.mp3"
+    );
+    const comerManzana = new Audio(
+      "https://eduvadillo.github.io/Project1/audio/comerManzana.mp3"
+    );
 
     function drawGame() {
       changeSnakePosition();

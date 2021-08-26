@@ -50,9 +50,15 @@ barraDiferencia.appendChild(nuevoDiv2);
 */
 
     //Audios
-    const gameOverSound = new Audio("../audio/gameOver2.mp3");
-    const comerManzana = new Audio("../audio/comerManzana.mp3");
-    const aplausosAudio = new Audio("../audio/applause.wav");
+    const gameOverSound = new Audio(
+      "https://eduvadillo.github.io/Project1/audio/gameOver2.mp3"
+    );
+    const comerManzana = new Audio(
+      "https://eduvadillo.github.io/Project1/audio/comerManzana.mp3"
+    );
+    const aplausosAudio = new Audio(
+      "https://eduvadillo.github.io/Project1/audio/applause.wav"
+    );
     //constructor  canvas jugador 1
     class SnakePart {
       constructor(x, y) {
@@ -206,7 +212,7 @@ barraDiferencia.appendChild(nuevoDiv2);
       let winner = false;
 
       let diferenciaScore = score2 - score;
-      if (diferenciaScore === 4) {
+      if (diferenciaScore === 12) {
         winner = true;
       }
       if (winner) {
@@ -412,7 +418,7 @@ barraDiferencia.appendChild(nuevoDiv2);
       let winner2 = false;
 
       let diferenciaScore = score2 - score;
-      if (diferenciaScore === 4) {
+      if (diferenciaScore === 12) {
         winner2 = true;
       }
       if (winner2) {
@@ -678,7 +684,7 @@ barraDiferencia.appendChild(nuevoDiv2);
     function drawGaveOverPlayer2() {
       clearGameOverPlayer2 = setInterval(() => {
         if (gameOver2 === true) {
-          gameOverPlayer2.innerHTML = `Ha acabado la partida para el  <span>${jugador2.innerHTML} </span> con una puntacion de <span><b>${score2}</span>`;
+          gameOverPlayer2.innerHTML = `Ha acabado la partida para <span>${jugador2.innerHTML} </span> con una puntacion de <span><b>${score2}</span>`;
         }
       }, 1000);
     }

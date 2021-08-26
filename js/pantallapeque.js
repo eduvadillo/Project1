@@ -30,7 +30,7 @@ let appleY = 2.5;
 let pearX = 7.5;
 let pearY = 7.5;
 const pear = new Image();
-pear.src = "../images//turtle2.png";
+pear.src = "https://eduvadillo.github.io/Project1/images//turtle2.png";
 
 let xVelocity = 0;
 let yVelocity = 0;
@@ -48,8 +48,12 @@ nameSaved.textContent = `${name}`;
 
 //sounds
 
-const soundGameOver = new Audio("../audio/gameOver2.mp3");
-const comerManzana = new Audio("../audio/comerManzana.mp3");
+const soundGameOver = new Audio(
+  "https://eduvadillo.github.io/Project1/audio/gameOver2.mp3"
+);
+const comerManzana = new Audio(
+  "https://eduvadillo.github.io/Project1/audio/comerManzana.mp3"
+);
 
 //Funcion principal jugador
 

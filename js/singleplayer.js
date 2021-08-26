@@ -18,9 +18,11 @@ const sinParedesBox = document.querySelector("#elegirSinParedes");
 
 sinParedesBox.addEventListener("change", function (e) {
   if (sinParedesBox.checked) {
-    gameBoy.href = "/html/gameboyBarcaSinParedes.html";
+    gameBoy.href =
+      "https://eduvadillo.github.io/Project1/html/gameboyBarcaSinParedes.html";
   } else {
-    gameBoy.href = "/html/gameboyBarca.html";
+    gameBoy.href =
+      "https://eduvadillo.github.io/Project1/html/gameboyBarca.html";
   }
 });
 
@@ -31,15 +33,19 @@ betisBoxSinParedes.addEventListener("change", function (e) {
     betisBoxSinParedes.checked &&
     sinParedesBox.addEventListener("change", function (e) {
       if (sinParedesBox.checked) {
-        gameBoy.href = "./gameboyBetisSinParedes.html";
+        gameBoy.href =
+          "https://eduvadillo.github.io/Project1/html/gameboyBetisSinParedes.html";
       } else {
-        gameBoy.href = "./gameboyBarca.html";
+        gameBoy.href =
+          "https://eduvadillo.github.io/Project1/html/gameboyBarca.html";
       }
     })
   ) {
-    gameBoy.href = "./gameboyBetis.html";
+    gameBoy.href =
+      "https://eduvadillo.github.io/Project1/html/gameboyBetis.html";
   } else {
-    gameBoy.href = "./gameboyBarca.html";
+    gameBoy.href =
+      "https://eduvadillo.github.io/Project1/html/gameboyBarca.html";
   }
 });
 
@@ -50,30 +56,38 @@ bilbaoBoxSinParedes.addEventListener("change", function (e) {
     bilbaoBoxSinParedes.checked &&
     sinParedesBox.addEventListener("change", function (e) {
       if (sinParedesBox.checked) {
-        gameBoy.href = "./gameboyBilbaoSinParedes.html";
+        gameBoy.href =
+          "https://eduvadillo.github.io/Project1/html/gameboyBilbaoSinParedes.html";
       } else {
-        gameBoy.href = "./gameboyBarca.html";
+        gameBoy.href =
+          "https://eduvadillo.github.io/Project1/html/gameboyBarca.html";
       }
     })
   ) {
-    gameBoy.href = "./gameboyBilbao.html";
+    gameBoy.href =
+      "https://eduvadillo.github.io/Project1/html/gameboyBilbao.html";
   } else {
-    gameBoy.href = "./gameboyBarca.html";
+    gameBoy.href =
+      "https://eduvadillo.github.io/Project1/html/gameboyBarca.html";
   }
 });
 
 bilbaoBox.addEventListener("change", function (e) {
   if (bilbaoBox.checked) {
-    gameBoy.href = "./gameboyBilbao.html";
+    gameBoy.href =
+      "https://eduvadillo.github.io/Project1/html/gameboyBilbao.html";
   } else {
-    gameBoy.href = "./gameboyBarca.html";
+    gameBoy.href =
+      "https://eduvadillo.github.io/Project1/html/gameboyBarca.html";
   }
 });
 
 betisBox.addEventListener("change", function (e) {
   if (betisBox.checked) {
-    gameBoy.href = "./gameboyBetis.html";
+    gameBoy.href =
+      "https://eduvadillo.github.io/Project1/html/gameboyBetis.html";
   } else {
-    gameBoy.href = "./gameboyBarca.html";
+    gameBoy.href =
+      "https://eduvadillo.github.io/Project1/html/gameboyBarca.html";
   }
 });
